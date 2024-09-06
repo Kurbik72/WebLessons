@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+    
+    
+
+}
+.pageone{
+    background-color: #100e14;
+
+}
+.conttext h1{
+    font-size: 63px;
+    
+    color: #FFFF;
+
+
+}
+.conttext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 90px;
+    
+    font-weight: 300;
+}
+.conttext p{
+    padding: 44px 0px;
+    color: #ffff ;
+    opacity: 70%;
+    font-size: 28px;
+}
+.ahref{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ahref a{
+    color: #ffff;
+}
+.knopka{
+    width: 281px;
+    height:66px ;
+    background-color: #FF4343;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+    
+    
+}
+.knopka p{
+    color: #ffff;
+    font-size: 23px;
+}
+.knopka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.textDown{
+
+    color: #ffff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 0px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.mainImg{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../../../public/mainIMG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    
+    margin: 60px 250px;
+}
